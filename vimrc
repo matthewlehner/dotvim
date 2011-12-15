@@ -1,5 +1,7 @@
-call pathogen#infect()
-color morning
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+color mac_classic
 
 set nocompatible
 syntax enable
