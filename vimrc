@@ -1,7 +1,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-color mac_classic
+set background=dark
+colorscheme solarized
 
 set nocompatible
 syntax enable
