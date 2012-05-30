@@ -32,3 +32,6 @@
 [submodule "bundle/skwp-vim-colors-solarized"]
 	path = bundle/skwp-vim-colors-solarized
 	url = https://github.com/skwp/vim-colors-solarized.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
