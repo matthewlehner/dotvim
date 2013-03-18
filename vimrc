@@ -54,3 +54,5 @@ let mapleader=","
 if has("gui_running")
     set guioptions=egmrt
 endif
+
+let g:ackprg = 'ag --nogroup --nocolor --column'
