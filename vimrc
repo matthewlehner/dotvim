@@ -1,10 +1,32 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'skwp/vim-colors-solarized'
+Bundle 'scrooloose/syntastic'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-haml'
+Bundle 'pangloss/vim-javascript'
+Bundle 'tpope/vim-rails'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'vitaly/vim-syntastic-coffee'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/vim-json-bundle'
+""Bundle 'myusuf3/numbers.vim'
+Bundle 'msanders/snipmate.vim'
+Bundle 'ap/vim-css-color'
 
 set background=dark
 colorscheme solarized
 
-set nocompatible
 syntax enable
 set encoding=utf-8
 set showcmd                 " display incomplete commands
