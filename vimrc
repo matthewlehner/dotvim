@@ -23,6 +23,11 @@ Bundle 'vim-scripts/vim-json-bundle'
 ""Bundle 'myusuf3/numbers.vim'
 Bundle 'msanders/snipmate.vim'
 Bundle 'ap/vim-css-color'
+Bundle 'slim-template/vim-slim'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-repeat'
+Bundle 'godlygeek/tabular'
+Bundle 'tsaleh/vim-matchit'
 
 set background=dark
 colorscheme solarized
