@@ -63,5 +63,3 @@ let mapleader=","
 if has("gui_running")
     set guioptions=egmrt
 endif
-
-au BufNewFile,BufRead *.hbs set filetype=mustache
