@@ -11,23 +11,27 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'skwp/vim-colors-solarized'
 Bundle 'scrooloose/syntastic'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-haml'
-Bundle 'pangloss/vim-javascript'
 Bundle 'tpope/vim-rails'
-Bundle 'vim-ruby/vim-ruby'
 Bundle 'vitaly/vim-syntastic-coffee'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/vim-json-bundle'
-""Bundle 'myusuf3/numbers.vim'
+Bundle 'myusuf3/numbers.vim'
 Bundle 'msanders/snipmate.vim'
 Bundle 'ap/vim-css-color'
-Bundle 'slim-template/vim-slim'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-repeat'
 Bundle 'godlygeek/tabular'
 Bundle 'tsaleh/vim-matchit'
+Bundle 'bling/vim-airline'
+
+" Syntax highlighters
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'pangloss/vim-javascript'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'juvenn/mustache.vim'
+Bundle 'tpope/vim-haml'
+Bundle 'slim-template/vim-slim'
 
 set background=dark
 colorscheme solarized
@@ -59,3 +63,5 @@ let mapleader=","
 if has("gui_running")
     set guioptions=egmrt
 endif
+
+au BufNewFile,BufRead *.hbs set filetype=mustache
